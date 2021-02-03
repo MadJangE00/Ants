@@ -18,9 +18,22 @@
 #
 # 클릭하면 단계 넘어감
 
+timer = 3
+score = 0
+ant = 1
 
+print('time : ', timer)
+print('score : ', score)
+print('ant : ', ant)
+print('---------------------')
 
-
-
+while timer > 0:
+    timer = timer - 1
+    score = score + ant
+    ant = ant + 1
+    print('time : ', timer)
+    print('score : ', score)
+    print('ant : ', ant)
+    print('---------------------')
 
 
